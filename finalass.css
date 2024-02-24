@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    font-family: sans-serif;
+}
+
+.herosection{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://www.techspot.com/images2/news/bigimage/2022/05/2022-05-05-image-11.jpg);
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-color: black;
+}
+
+
+.content h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    text-shadow: 0px 0px 24px black;
+    line-height: 70px;
+}
+.content button{
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid cyan;
+    background: transparent;
+    margin-top: 37px;
+    font-weight: 600;
+    cursor:pointer;
+    text-transform: uppercase;
+}
+
+.content button:hover{
+    color: black;
+    background:cyan;
+ 
+    transition: .8s ease;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 32px;
+    padding-left: 75px;
+}
+
+.navbar{
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 25px;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.logo{
+    color: #ffac2e;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    list-style : none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #b0b0b0;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+ul li a:hover{
+    color: white;
+    transition: .8s ease;
+}
+
+.downloadbtn{
+    border: none;
+    padding: 6px 22px;
+    background: #ffac2e;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    color: black;
+}
+
+.downloadbtn:hover{
+    background: #dfdfdf;
+    transition: .8s ease;
+}
+
+.sidecontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.searchicon{
+    color: white;
+    cursor: pointer;
+}
+
+.aboutus{
+    background: #a0a0a0;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://t3.ftcdn.net/jpg/04/35/60/96/360_F_435609606_KgXAz2sgnnfqefOmyuJnVKMxOqu4UaFe.jpg);
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.aboutus .heading{
+    width: 50%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+.aboutus .para{
+    width: 50%;
+    padding-right: 30px;
+}
+
+.aboutus .heading h1{
+    font-size: 40px;
+    margin-top: -130px;
+    color: white;
+}
+.aboutus .para p{
+    font-size: 18px;
+    padding-right: 45%;
+    color: white;
+}
+
+.platform{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-left: 280px;
+    background-image: url(https://battlegroundsmobileguru.com/wp-content/uploads/2023/05/BGMI-New-Features.jpg);
+    background-position: center;
+    background-size: cover; 
+    background-attachment:fixed;
+}
+.card{
+    width: 320px;
+   gap:13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.card button{
+    background: #ff800b;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.card button:hover{
+    background: #c9c9c9;
+    transition : .8s ease;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: #c1c1c1;
+    padding: 12px 20px;
+}
+
+.box h1{
+    font-size: 20px;
+}
+
+.sec{
+    height: 300px;
+    background: #ff9200;
+    display: flex;
+    align-items: center;
+    padding-left: 206px;
+    background-image:url("https://wallpapercave.com/wp/wp2033056.png");
+    background-position:center;
+    background-size: cover;
+}
+
+.community h1{
+    font-size: 30px;
+}
+
+.community p{
+    padding : 15px 0;
+    font-weight:600;
+}
+
+.community button{
+    border: none;
+    padding: 8px 25px;
+    background: black;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+   
+}
+.community button:hover{
+    background: #541111;
+    transition : .8s ease;
+    
+}
+
+.sec1{
+    height: 280px;
+    background: black;
+    color: white;
+    padding-top: 45px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 205px;
+}
+
+.skate h1{
+   padding-bottom: 15px;
+   font-size: 16px;
+}
+
+.socialicon h1{
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+
+hr{
+    width: 69%;
+    margin: 50px auto;
+}
+
+.logoicons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 205px;
+}
+
+.icn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icn i{
+    color: #b5b5b5;
+    cursor:pointer;
+}
+
+
+.icn i:hover{
+    color:white;
+    transition: .8s ease;
+}
